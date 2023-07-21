@@ -12,7 +12,7 @@ body {
     min-height: 100vh;
     background-image: linear-gradient(rgb(241 241 241), rgb(167 158 126));
     /* in case bg-img can't load */
-    background-image: linear-gradient(rgb(241 241 241), rgb(138 138 138 / 70%)),
+    background-image: linear-gradient(rgb(220, 220, 220), rgba(53, 53, 53, 0.7)),
         url(../images/bg-supermarket.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,19 +27,20 @@ h1 {
 }
 
 .shelf {
-    border-bottom: 5px rgb(94, 58, 36) solid;
+    background-color: rgb(255, 255, 255, 0.5);
     width: 90vw;
     max-width: 600px;
     height: 70px;
     margin: 2em auto;
+    font-size: 2rem;
 }
 
 .shelf1 {
-    background-color: rgb(255 245 59 / 30%);
+    border: solid 7px rgb(224, 224, 0);
 }
 .shelf2 {
-    background-color: rgb(255 118 21 / 30%);
+    border: solid 7px rgb(255, 136, 0);
 }
 .shelf3 {
-    background-color: rgb(47 145 34 / 30%);
+    border: solid 7px rgb(28, 153, 28);
 }

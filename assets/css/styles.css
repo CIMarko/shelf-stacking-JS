@@ -4,6 +4,21 @@
     padding: 0;
 }
 
+/* General styling */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(241 241 241), rgb(167 158 126));
+    /* in case bg-img can't load */
+    background-image: linear-gradient(rgb(241 241 241), rgb(138 138 138 / 70%)),
+        url(../images/bg-supermarket.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    resize: both;
+}
+
 .shelf {
     border-bottom: 5px rgb(94, 58, 36) solid;
     width: 90vw;

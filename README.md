@@ -1,6 +1,6 @@
 # Sort the Fruit
 
-A simple exercise to teach JavaSpcript loops and DOM interaction
+A simple exercise to teach JavaSpcript loops and DOM interaction.
 
 ## Before you start coding
 
